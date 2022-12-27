@@ -16,7 +16,7 @@ public class Main {
         employees[7] = new Employee("8 Фамилия Имя Отчество", 2200);
         employees[8] = new Employee("9 Фамилия Имя Отчество", 6000);
         employees[9] = new Employee("10 Фамилия Имя Отчество", 3200);
-        System.out.println(Arrays.toString(employees) + " ");
+        System.out.println(Arrays.toString(employees) + "  ." );
 
 
         System.out.println("Сумма всех зарплат: " + calculateSumSalary());
